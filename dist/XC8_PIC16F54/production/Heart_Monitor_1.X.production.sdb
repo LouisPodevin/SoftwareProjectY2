@@ -1,0 +1,144 @@
+[p GLOBOPT AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F88 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"28 C:\Users\Neidra\Documents\English\Inge1\Sligo\Project\Heart_Monitor_1.X\interrupts.c
+[v _isr isr `II(v  1 e 1 0 ]
+"47 C:\Users\Neidra\Documents\English\Inge1\Sligo\Project\Heart_Monitor_1.X\main.c
+[v _display display `(v  1 e 1 0 ]
+"85
+[v _main main `(v  1 e 1 0 ]
+"18 C:\Users\Neidra\Documents\English\Inge1\Sligo\Project\Heart_Monitor_1.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+"25 C:\Users\Neidra\Documents\English\Inge1\Sligo\Project\Heart_Monitor_1.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+"166 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f88.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"478
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"1087
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1149
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1735
+[v _ANSEL ANSEL `VEuc  1 e 1 @155 ]
+"2308
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2350
+[v _IRCF0 IRCF0 `VEb  1 e 0 @1148 ]
+"2353
+[v _IRCF1 IRCF1 `VEb  1 e 0 @1149 ]
+"2356
+[v _IRCF2 IRCF2 `VEb  1 e 0 @1150 ]
+"2374
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2401
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"2563
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2566
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2569
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2572
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"37 C:\Users\Neidra\Documents\English\Inge1\Sligo\Project\Heart_Monitor_1.X\main.c
+[v _time time `uc  1 e 1 0 ]
+"38
+[v _time2 time2 `uc  1 e 1 0 ]
+"40
+[v _heartbeat heartbeat `uc  1 e 1 0 ]
+"41
+[v _prev prev `uc  1 e 1 0 ]
+"43
+[v _decomposed decomposed `uc  1 e 1 0 ]
+"44
+[v _temp temp `uc  1 e 1 0 ]
+"45
+[v _temp2 temp2 `uc  1 e 1 0 ]
+"85
+[v _main main `(v  1 e 1 0 ]
+{
+"142
+} 0
+"47
+[v _display display `(v  1 e 1 0 ]
+{
+[v display@decomposed decomposed `i  1 p 2 3 ]
+"83
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 2 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 1 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 3 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 0 ]
+"18
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 2 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 1 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 3 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 0 ]
+"26
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 5 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 3 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 6 ]
+"51
+} 0
+"25 C:\Users\Neidra\Documents\English\Inge1\Sligo\Project\Heart_Monitor_1.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+{
+"42
+} 0
+"18 C:\Users\Neidra\Documents\English\Inge1\Sligo\Project\Heart_Monitor_1.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+{
+"25
+} 0
+"28 C:\Users\Neidra\Documents\English\Inge1\Sligo\Project\Heart_Monitor_1.X\interrupts.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"62
+} 0

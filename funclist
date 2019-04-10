@@ -1,0 +1,10 @@
+___awdiv: CODE, 263 0 93
+_display: CODE, 435 0 52
+___awmod: CODE, 356 0 79
+_ConfigureOscillator: CODE, 571 0 1
+_main: CODE, 29 0 234
+_InitApp: CODE, 532 0 20
+__initialization: CODE, 19 0 7
+_isr: CODE, 487 0 22
+___bmul: CODE, 552 0 19
+Total: 527
